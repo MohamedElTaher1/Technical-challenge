@@ -1,0 +1,483 @@
+[INFO ] 2024-07-07 00:01:05.771 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240624[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:05.775 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-07-07 00:01:05.782 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-07-07 00:01:05.782 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-07-07 00:01:05.785 [main] ReportManager - TestNG run detected...
+[WARN ] 2024-07-07 00:01:05.934 [main] Configuration - Detected a static method [pages.DriverManager.startDriverSession()]. Static configuration methods can cause unexpected behavior.
+[WARN ] 2024-07-07 00:01:05.936 [main] Configuration - Detected a static method [pages.DriverManager.EndDriverSession()]. Static configuration methods can cause unexpected behavior.
+[INFO ] 2024-07-07 00:01:05.965 [main] Utils - [TestNG] Running:
+  D:\JDK\project\Web-Automation-Assessment\Technical-challenge\Technical-challenge\RunTest.xml
+
+[INFO ] 2024-07-07 00:01:06.016 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:06.040 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-07-07 00:01:06.068 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-07-07 00:01:06.152 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of start driver session configuration method                                         
+                                                         'LoginPage.startDriverSession'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:06.175 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-07 00:01:06.705 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-07 00:01:06.707 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:06.708 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-07-07 00:01:07.493 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-07-07 00:01:07.971 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-07-07 00:01:08.043 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-07-07 00:01:08.643 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-07-07 00:01:08.644 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-07-07 00:01:08.645 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-07-07 00:01:08.645 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-07-07 00:01:08.645 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-07-07 00:01:08.645 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.646 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-07-07 00:01:08.646 [] headers - >> Accept: */*
+[DEBUG] 2024-07-07 00:01:08.646 [] headers - >> Host: api.github.com
+[DEBUG] 2024-07-07 00:01:08.646 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-07-07 00:01:08.646 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)
+[DEBUG] 2024-07-07 00:01:08.647 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-07-07 00:01:08.875 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.876 [] wire -  << "Date: Sat, 06 Jul 2024 21:01:08 GMT[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.876 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "ETag: W/"ed814956a6e561f96199ee872b199e6b47b14f7026d8d44f21a16464e4f8b58a"[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Last-Modified: Mon, 24 Jun 2024 17:12:27 GMT[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.877 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.878 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.878 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.878 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "X-RateLimit-Remaining: 51[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "X-RateLimit-Reset: 1720301066[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "X-RateLimit-Used: 9[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.879 [] wire -  << "Content-Length: 998[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.880 [] wire -  << "X-GitHub-Request-Id: DD37:D6C6C:5A2B482:5B4421B:6689B094[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.880 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-07-07 00:01:08.880 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-07-07 00:01:08.880 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-07-07 00:01:08.880 [] headers - << Date: Sat, 06 Jul 2024 21:01:08 GMT
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << ETag: W/"ed814956a6e561f96199ee872b199e6b47b14f7026d8d44f21a16464e4f8b58a"
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Last-Modified: Mon, 24 Jun 2024 17:12:27 GMT
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-07-07 00:01:08.881 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << Server: github.com
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << X-RateLimit-Remaining: 51
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << X-RateLimit-Reset: 1720301066
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << X-RateLimit-Used: 9
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-07-07 00:01:08.882 [] headers - << Content-Length: 998
+[DEBUG] 2024-07-07 00:01:08.883 [] headers - << X-GitHub-Request-Id: DD37:D6C6C:5A2B482:5B4421B:6689B094
+[DEBUG] 2024-07-07 00:01:08.904 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-07-07 00:01:08.905 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]W[0x8f]k[0xdb]8[0x18][0xfd]W[0x8c][0xc7]8[0xc8][0xc5]v[0xec]8ij[0x18][0xbb][0xeb][0xda][0xfd][0x82][0xb6]l+[0xc]n[0x1b]Av[0x14][[0xad]ly[0x92][0x9c]^[0x16][0xfa][0xbf][0xdf][0x93][0xed][0x84][0xc4]"
+[DEBUG] 2024-07-07 00:01:08.906 [] wire -  << "[0xdc][0xd2][0xee][0x92][0xa3]P[0xa8][0xd2][0xd3][0xd3][0xd3][0xa7][0xf7]}][0xd9][0x95][0xe4]vdgZ[0x97]*[0xf2]<R27e:[0xab]b7[0x11][0xb9]'i)[0x94][0xf7])#s[0xfd][0xf6][0x83][0xf7][0xe9][0xed][0x9f][0xaf]o[0xa6][0x17]Wo[0xde]]][0xe0]O[0x9c][0x12]E[0x95][0xe7][0x8f][0x3][0xdf]?[0x1d][0x8f][0x87]v[0xdf]&JQ[0xad][0xa6][0xc7][0xc3][0xf4][0x1a]D@W%[0x17]d[0xd6][0x81]n[0x6][0xd5][0xa6][0xdc][0xc2][0xaf]^[0x16]$[0xa7]}Nb[0xca][0x1f][0xb0]W[0xa6]s[0xde][0xd9]iK[0x94][0xfd]rh[0x92]z[0x13]7p[0x83]A[0x10][0xe][0xc6]A[0x8]86[0xb3][0xa3][0x8d]J[0x10][0xa9][0xd2][0x99][0x90]v[0xb4][0xb2][0xb9]HY[0x1][0xf5][0x1b]p[0x87]$[0x9a][0x89]B}[0x89][0x85][0xfe][0xd6].[0xb][0xfd][0xc9][0xe9]$[0x98][0x4]}[0xbb][0x10]3:5H[0xf6][0xe5][0xf9][0xe5][0xf8]C~:[0xb8]:[0xbf][0x8][0xaf]o[0xd2][0xe5][0xf5][0xf9][0xbb][0x17]F[0xfb][0x5][0xd1]Dv[0xb5][0xaf][0x7][0xd7][0x2]U[0x8a][0xca]D[0x14][0x9a][0x16][0xba][0xbe]^Vx[0xfe]h8[0x9e][0xbc]\[0xbc]0<S[0xd9]b[0xd4][0xdb][0x18][0xcd][0xf7][0xe5][0x86][0x1]S[0xde].[0xf5][0xe7][0xa3]3[0x90]>:TDR[0x96][0xdd][0xc5]X3[0x17][0x9c][0x8b]{[0xe0]v[0x8f][0xb1][0x9b][0x96]{[0xb7][0xf6]6 [0x1b]@V[0xa4][0x87][0x3][0x2]d[0xe5][0x9][0x9d]Qh[0x8c][0xa3][0x9b]<I[0x99]z,[0xdb][0xf7]S[0xad][0x1]V[0x10]Qi[0xdc][0xad][0x81]T[0xb8].I[0xbb]y[0xde]y[0x96][0xfb]A[[0x8][0x90][0xbd]/[0xc0]sU[0xbf][0xe2][0x1a][0xbb][0x8a]U"YYg[0xd9]![0x82][0xec][0x0][0x1]X[0xc8][0x94][0x14][0xec][0x7]9[0x18][0x18]@[\n]"
+[DEBUG] 2024-07-07 00:01:08.906 [] wire -  << "x[0xb5][0xed][0x1c]B[0xb0][0x6][0x0][0x10]] [0xd5][0xf]Bj[0x10]V^)[0xd9][0x82]$K#[0xa3][0xa4][0x9]e[0xb][0xdc][0xd1][0xe1][0xe8][0x1d]([0x80][0xeb]eI[0xf1][0xf8][0xce][0x84]6[0x17][0xc6]4[0x9d][0x92]YnLbN[0xb8][0xa2][0xf][0xdb]>[0xf0][0xf1]bzw~[0xfd][0xea][\r][0xbd][0x19][0xab][0xf0][0xfd][0xf7]x[0xba]0[0x0]$[0x9d][0x1a]7[0x3]H[0xc7][0x86][0x90]Y)[0xd5]S<[0xfc][0x9c]i[0xa6]2[0xcc][0xc8][0x9][0xa0][0x81][0xf9][0xaf][0xf3]g[0x12][0xb6][0xdf]n[0xdc][0xb7]KI[[0xcb][0xdf][0xc]%[0x92][0x12][\r][0x1d][0x8]f[0xd9][0xc6][0xef][0x9c][0xc1][0xd8][0x9][0xc2][0x1b][0xff]$[0xf2][0xfd]ht[0xf2][0x17][0xa0][0xcb]*[0xe6][0xd8][0xeb]'[0xb3][0x82]([0xa8]g[0xb5].[0x1f]}[0xf9]f[0xe] c[0xc2][0xbb][0xfe][0xfb][0xf4][0xc2][0xd4][0xae][0xef][0x9a][0xf0][0xf]V[0x1e][0x4][0xdb][0xae][0xef][0xc2][0xc6]b[0xb6][0xc4][0xe9][0x9f]=[0xb3]>gD[0xff][0xa6][0xac]W[0x19])R:[0xfb]Z[0xf4][0xac][0xb3]*/-[0xa4][0xb4]KJ[0x92]d[0xd4][0xcd][0x9][0xd2][0xd1]U[0x95][0xa4]s&i[0xb4][0xe][0x1c]M[0x95].Rk.En[\r]Q:F[0x96][0x16][0x8][0x86][0xee][0xc0][0x8a][0x97][0xd6][0x1f]3Z[0xd2]bF`[0xac][0x16]+[0xac]u[0xa5]~[0xac] [0x95][0x15][0xe7][0xa8][0xcd][0xe1][0xe0][0xe7]LJ^[0xa1][0xfe][0xa8][0xa8][0xe6][0xe5]l[0xe8]4[0xc3][0xff][0xf][0x9d][0xe1][0xe9][0xe][0x1d]%[\n]"
+[DEBUG] 2024-07-07 00:01:08.906 [] wire -  << "b2[0xde]M[0xf0]N%[0xe1]Q[0xfb]u[0xda][0xb4][0x81][0xe7]:[\r][0xbb]mR[0x3]7[0x84]4[0xd0]h[0xe0][0x8e][0x8e][0xa2][0x91][0xff]d[0x8d][0x92]|M[0xcd][0xe9][0xca][0xe4][0x1f][0xf3][0xd6][0x86]OetKd[0x87]I[0xe8][0xb6]LB78B[0xfe][0x4][0xbb][0x17][0x86][0xae][0xaf]`U[0x9e]}wU[0x1b]F[0xeb][0xc0][0xb9]E[0xfb][0xd0][0xa4][\r][0xb6][0xf6][0x9b]+B[0x14][0x1c][0xe5][0x8e]B[0xc3]#[0x17]1[0xe3][0xd4]B[0xd2][0xc0][0x80][0xf1][0x1a][0x98][0xb6][0xe6][0xec][0xef][0xfa][0x94][0x97]"#1~13[0xfe][0xcb][0xaf]d[0xb4]{[0xca][0xbb]%[\n]"
+[DEBUG] 2024-07-07 00:01:08.906 [] wire -  << "%[0x85]+[0xca][0xe8][0xd6][0xe4]([0xda]Z[0x89][0xad][0xcc][0x3][0xf5][0x91]s[0xb5][0xc0]&8[0x86][0xc0]c[0xb3][0xf5][0xb6]U[0x1f][0xe1]8'_[0xb][0xf3][0xd3][0xeb][0xbd][0x86][0xb][0xb4][0x96][0x84]f[0xb3][0xd7][0x8b][0x9e][0xac][0xc][0xca]DI$[0xdd][0xf2];[0xdf]w][0xb7]SS R[0xd3][0xb4][0x9a]vvo[0xbb][0xf8]K[0xff]J[0xa0]eY[0xe3][0xa2] [0x8]M8[0xca]VU[0xa0][0xce][0xf8]}[0xfb]w[0xbf][0xfe]8[0xf8][0xc][0xfa]6'U[0x8a]R[0x86]([0x13]B[0x12][0x98]1B4[0xb9]s4Ihc[0xcd]8%[0x12]+[0x11]I[0x91][0xdc][0xd1]&[0xa4]K[0xaa]0[0x86][0x82][0x9a][0xc3]z[0xea][0x86][0xa8][0xdd]!x[0xf8][0x7]w[0xe1][0xcc]|[0x15][\r][0x0][0x0]"
+[DEBUG] 2024-07-07 00:01:08.907 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2024-07-07 00:01:08.969 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[DEBUG] 2024-07-07 00:01:08.993 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@32db05ba
+[DEBUG] 2024-07-07 00:01:08.993 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-07-07 00:01:09.010 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-07-07 00:01:09.033 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-07 00:01:09.567 [] ReportManager - You're using the latest engine version "8.2.20240624". 👍
+[INFO ] 2024-07-07 00:01:09.863 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-07-07 00:01:09.868 [main] ReportManager - Verify that the browser title is equal to "Swag Labs".
+[DEBUG] 2024-07-07 00:01:09.889 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:09.952 [main] AllureLifecycle - Could not update step: step with uuid 13e0efa9-96c5-4af9-82c3-6e84853c0773 not found
+[INFO ] 2024-07-07 00:01:10.602 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_00-01-10-601_07072024'
+[INFO ] 2024-07-07 00:01:10.603 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:10.604 [main] AllureLifecycle - Could not update step: step with uuid 13e0efa9-96c5-4af9-82c3-6e84853c0773 not found
+[INFO ] 2024-07-07 00:01:10.605 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: startDriverSession'
+[INFO ] 2024-07-07 00:01:10.670 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.CheckFieldsExist'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:10.734 [main] ReportManager - Assert that the element located by "By.id: user-name" exists.
+[DEBUG] 2024-07-07 00:01:10.797 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:10.798 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[DEBUG] 2024-07-07 00:01:10.804 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:56631<->140.82.121.6:443 closed
+[INFO ] 2024-07-07 00:01:11.151 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-11-150_07072024'
+[INFO ] 2024-07-07 00:01:11.152 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:11.152 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[INFO ] 2024-07-07 00:01:11.153 [main] ReportManager - Assert that the element located by "By.id: password" exists.
+[DEBUG] 2024-07-07 00:01:11.181 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:11.181 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[INFO ] 2024-07-07 00:01:11.513 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-11-512_07072024'
+[INFO ] 2024-07-07 00:01:11.514 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:11.515 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[INFO ] 2024-07-07 00:01:11.517 [main] ReportManager - Assert that the element located by "By.id: login-button" exists.
+[DEBUG] 2024-07-07 00:01:11.589 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:11.589 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[INFO ] 2024-07-07 00:01:11.932 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-11-930_07072024'
+[INFO ] 2024-07-07 00:01:11.932 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:11.932 [main] AllureLifecycle - Could not update step: step with uuid 311da102-0e82-41b2-8462-f4af47b549a9 not found
+[INFO ] 2024-07-07 00:01:11.937 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: CheckFieldsExist'
+[INFO ] 2024-07-07 00:01:11.937 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Finished Execution of Test Method: 'LoginPage.CheckFieldsExist'                                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:11.949 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Starting execution of end driver session configuration method                                          
+                                                          'LoginPage.EndDriverSession'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2024-07-07 00:01:12.100 [main] ReportManager - Jul 07, 2024 12:01:12 AM org.openqa.selenium.remote.http.jdk.JdkHttpClient close
+[WARN ] 2024-07-07 00:01:12.100 [main] ReportManager - WARNING: failed to close the websocket: org.openqa.selenium.remote.http.jdk.JdkHttpClient$4@7f287b98
+[WARN ] 2024-07-07 00:01:12.101 [main] ReportManager - org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+[WARN ] 2024-07-07 00:01:12.101 [main] ReportManager - Build info: version: '4.22.0', revision: 'c5f3146703*'
+[WARN ] 2024-07-07 00:01:12.101 [main] ReportManager - System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+[WARN ] 2024-07-07 00:01:12.102 [main] ReportManager - Driver info: driver.version: SHAFT$GUI$WebDriver
+[WARN ] 2024-07-07 00:01:12.102 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+[WARN ] 2024-07-07 00:01:12.102 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+[WARN ] 2024-07-07 00:01:12.102 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.close(JdkHttpClient.java:459)
+[WARN ] 2024-07-07 00:01:12.103 [main] ReportManager - 	at org.openqa.selenium.bidi.Connection.close(Connection.java:244)
+[WARN ] 2024-07-07 00:01:12.103 [main] ReportManager - 	at org.openqa.selenium.bidi.BiDi.close(BiDi.java:41)
+[WARN ] 2024-07-07 00:01:12.103 [main] ReportManager - 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[WARN ] 2024-07-07 00:01:12.103 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:413)
+[WARN ] 2024-07-07 00:01:12.103 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:264)
+[WARN ] 2024-07-07 00:01:12.104 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:246)
+[WARN ] 2024-07-07 00:01:12.104 [main] ReportManager - 	at com.shaft.driver.SHAFT$GUI$WebDriver.quit(SHAFT.java:54)
+[WARN ] 2024-07-07 00:01:12.104 [main] ReportManager - 	at pages.DriverManager.EndDriverSession(DriverManager.java:31)
+[WARN ] 2024-07-07 00:01:12.104 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-07-07 00:01:12.105 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-07-07 00:01:12.105 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+[WARN ] 2024-07-07 00:01:12.105 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+[WARN ] 2024-07-07 00:01:12.105 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+[WARN ] 2024-07-07 00:01:12.109 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+[WARN ] 2024-07-07 00:01:12.129 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+[WARN ] 2024-07-07 00:01:12.130 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+[WARN ] 2024-07-07 00:01:12.138 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+[WARN ] 2024-07-07 00:01:12.144 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+[WARN ] 2024-07-07 00:01:12.148 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2024-07-07 00:01:12.149 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+[WARN ] 2024-07-07 00:01:12.149 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+[WARN ] 2024-07-07 00:01:12.150 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+[WARN ] 2024-07-07 00:01:12.151 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+[WARN ] 2024-07-07 00:01:12.154 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+[WARN ] 2024-07-07 00:01:12.158 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+[WARN ] 2024-07-07 00:01:12.158 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:614)
+[WARN ] 2024-07-07 00:01:12.159 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+[WARN ] 2024-07-07 00:01:12.160 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+[WARN ] 2024-07-07 00:01:12.160 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+[WARN ] 2024-07-07 00:01:12.161 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+[WARN ] 2024-07-07 00:01:12.162 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2024-07-07 00:01:12.162 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2024-07-07 00:01:12.162 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+[WARN ] 2024-07-07 00:01:12.162 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+[WARN ] 2024-07-07 00:01:12.162 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1079)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - Caused by: java.io.IOException: Output closed
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose(WebSocketImpl.java:313)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.lambda$send$2(JdkHttpClient.java:280)
+[WARN ] 2024-07-07 00:01:12.163 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:291)
+[WARN ] 2024-07-07 00:01:12.164 [main] ReportManager - 	... 40 more
+[INFO ] 2024-07-07 00:01:12.308 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-07 00:01:12.310 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: EndDriverSession'
+[INFO ] 2024-07-07 00:01:12.318 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of start driver session configuration method                                         
+                                                         'LoginPage.startDriverSession'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:12.330 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-07 00:01:12.865 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-07 00:01:12.866 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:12.866 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-07-07 00:01:13.748 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:13.750 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-07-07 00:01:13.768 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-07 00:01:14.684 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-07-07 00:01:14.687 [main] ReportManager - Verify that the browser title is equal to "Swag Labs".
+[DEBUG] 2024-07-07 00:01:14.699 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:14.700 [main] AllureLifecycle - Could not update step: step with uuid 48f2cc1b-ffa8-4d57-b337-c67dda16a520 not found
+[INFO ] 2024-07-07 00:01:15.035 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_00-01-15-034_07072024'
+[INFO ] 2024-07-07 00:01:15.035 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:15.035 [main] AllureLifecycle - Could not update step: step with uuid 48f2cc1b-ffa8-4d57-b337-c67dda16a520 not found
+[INFO ] 2024-07-07 00:01:15.036 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: startDriverSession'
+[INFO ] 2024-07-07 00:01:15.039 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.EmptyCredentials'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-07-07 00:01:15.127 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:15.170 [main] ReportManager - Type "mohamed" into "Username".
+[INFO ] 2024-07-07 00:01:15.330 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-07 00:01:15.366 [main] ReportManager - Click "Login".
+[INFO ] 2024-07-07 00:01:15.367 [main] ReportManager - Assert that the element located by "By.xpath: //div[contains(@class, 'error-message-container error')]/h3[contains(text(), 'Epic sadface: Password is required')]" exists.
+[DEBUG] 2024-07-07 00:01:15.428 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:15.429 [main] AllureLifecycle - Could not update step: step with uuid 92fd4870-6d9d-4e4e-81e3-91828ed38467 not found
+[INFO ] 2024-07-07 00:01:15.740 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-15-739_07072024'
+[INFO ] 2024-07-07 00:01:15.741 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:15.741 [main] AllureLifecycle - Could not update step: step with uuid 92fd4870-6d9d-4e4e-81e3-91828ed38467 not found
+[INFO ] 2024-07-07 00:01:15.778 [main] ReportManager - Get text "mohamed" from "Username".
+[INFO ] 2024-07-07 00:01:15.854 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:15.924 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:16.004 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:16.069 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:16.133 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:16.198 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[INFO ] 2024-07-07 00:01:16.276 [main] ReportManager - Key press "BACK_SPACE" against "Username".
+[DEBUG] 2024-07-07 00:01:16.336 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:16.363 [main] ReportManager - Type "123" into "Password".
+[INFO ] 2024-07-07 00:01:16.516 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-07 00:01:16.539 [main] ReportManager - Click "Login".
+[INFO ] 2024-07-07 00:01:16.540 [main] ReportManager - Assert that the element located by "By.xpath: //div[contains(@class, 'error-message-container error')]/h3[contains(text(), 'Epic sadface: Username is required')]" exists.
+[DEBUG] 2024-07-07 00:01:16.576 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:16.576 [main] AllureLifecycle - Could not update step: step with uuid 92fd4870-6d9d-4e4e-81e3-91828ed38467 not found
+[INFO ] 2024-07-07 00:01:16.929 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-16-927_07072024'
+[INFO ] 2024-07-07 00:01:16.929 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:16.929 [main] AllureLifecycle - Could not update step: step with uuid 92fd4870-6d9d-4e4e-81e3-91828ed38467 not found
+[INFO ] 2024-07-07 00:01:16.974 [main] ReportManager - Get text "123" from "Password".
+[INFO ] 2024-07-07 00:01:17.088 [main] ReportManager - Key press "BACK_SPACE" against "Password".
+[INFO ] 2024-07-07 00:01:17.168 [main] ReportManager - Key press "BACK_SPACE" against "Password".
+[INFO ] 2024-07-07 00:01:17.252 [main] ReportManager - Key press "BACK_SPACE" against "Password".
+[INFO ] 2024-07-07 00:01:17.254 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: EmptyCredentials'
+[INFO ] 2024-07-07 00:01:17.254 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Finished Execution of Test Method: 'LoginPage.EmptyCredentials'                                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:17.257 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Starting execution of end driver session configuration method                                          
+                                                          'LoginPage.EndDriverSession'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2024-07-07 00:01:17.391 [main] ReportManager - Jul 07, 2024 12:01:17 AM org.openqa.selenium.remote.http.jdk.JdkHttpClient close
+[WARN ] 2024-07-07 00:01:17.393 [main] ReportManager - WARNING: failed to close the websocket: org.openqa.selenium.remote.http.jdk.JdkHttpClient$4@20cdb152
+[WARN ] 2024-07-07 00:01:17.394 [main] ReportManager - org.openqa.selenium.WebDriverException: java.io.IOException: Output closed
+[WARN ] 2024-07-07 00:01:17.395 [main] ReportManager - Build info: version: '4.22.0', revision: 'c5f3146703*'
+[WARN ] 2024-07-07 00:01:17.397 [main] ReportManager - System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+[WARN ] 2024-07-07 00:01:17.397 [main] ReportManager - Driver info: driver.version: SHAFT$GUI$WebDriver
+[WARN ] 2024-07-07 00:01:17.399 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.send(JdkHttpClient.java:301)
+[WARN ] 2024-07-07 00:01:17.400 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient$4.close(JdkHttpClient.java:320)
+[WARN ] 2024-07-07 00:01:17.401 [main] ReportManager - 	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.close(JdkHttpClient.java:459)
+[WARN ] 2024-07-07 00:01:17.412 [main] ReportManager - 	at org.openqa.selenium.bidi.Connection.close(Connection.java:244)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at org.openqa.selenium.bidi.BiDi.close(BiDi.java:41)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:413)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:264)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at com.shaft.driver.internal.DriverFactory.DriverFactoryHelper.closeDriver(DriverFactoryHelper.java:246)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at com.shaft.driver.SHAFT$GUI$WebDriver.quit(SHAFT.java:54)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at pages.DriverManager.EndDriverSession(DriverManager.java:31)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[WARN ] 2024-07-07 00:01:17.418 [main] ReportManager - 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.TestRunner.run(TestRunner.java:614)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+[WARN ] 2024-07-07 00:01:17.419 [main] ReportManager - 	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.TestNG.runSuites(TestNG.java:1112)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at org.testng.TestNG.run(TestNG.java:1079)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - Caused by: java.io.IOException: Output closed
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.MessageEncoder.encodeClose(MessageEncoder.java:330)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onClose(TransportImpl.java:422)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask$1.onClose(TransportImpl.java:367)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.MessageQueue.peek(MessageQueue.java:266)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.TransportImpl$SendTask.run(TransportImpl.java:555)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+[WARN ] 2024-07-07 00:01:17.420 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+[WARN ] 2024-07-07 00:01:17.421 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.TransportImpl.sendClose(TransportImpl.java:271)
+[WARN ] 2024-07-07 00:01:17.421 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendClose0(WebSocketImpl.java:345)
+[WARN ] 2024-07-07 00:01:17.421 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl.sendCloseSilently(WebSocketImpl.java:660)
+[WARN ] 2024-07-07 00:01:17.421 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.lambda$processClose$0(WebSocketImpl.java:549)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.base/java.util.concurrent.CompletableFuture.uniWhenCompleteStage(CompletableFuture.java:887)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:2357)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.base/java.util.concurrent.CompletableFuture.whenComplete(CompletableFuture.java:144)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.processClose(WebSocketImpl.java:544)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.websocket.WebSocketImpl$ReceiveTask.run(WebSocketImpl.java:459)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
+[WARN ] 2024-07-07 00:01:17.422 [main] ReportManager - 	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+[WARN ] 2024-07-07 00:01:17.423 [main] ReportManager - 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[WARN ] 2024-07-07 00:01:17.423 [main] ReportManager - 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[WARN ] 2024-07-07 00:01:17.423 [main] ReportManager - 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[INFO ] 2024-07-07 00:01:17.553 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-07 00:01:17.554 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: EndDriverSession'
+[INFO ] 2024-07-07 00:01:17.557 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of start driver session configuration method                                         
+                                                         'LoginPage.startDriverSession'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:17.559 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-07 00:01:18.075 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-07 00:01:18.078 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:18.079 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-07-07 00:01:19.063 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:19.064 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-07-07 00:01:19.079 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-07 00:01:19.904 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-07-07 00:01:19.906 [main] ReportManager - Verify that the browser title is equal to "Swag Labs".
+[DEBUG] 2024-07-07 00:01:19.914 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:19.915 [main] AllureLifecycle - Could not update step: step with uuid 34677d60-e5af-48d4-ae75-c8524e48a158 not found
+[INFO ] 2024-07-07 00:01:20.148 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_00-01-20-147_07072024'
+[INFO ] 2024-07-07 00:01:20.148 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:20.149 [main] AllureLifecycle - Could not update step: step with uuid 34677d60-e5af-48d4-ae75-c8524e48a158 not found
+[INFO ] 2024-07-07 00:01:20.149 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: startDriverSession'
+[INFO ] 2024-07-07 00:01:20.152 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 4' test cases in the current suite                                        
+                                                   Test Method: 'LoginPage.InValidCredentials'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-07-07 00:01:20.235 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:20.274 [main] ReportManager - Type "mohamed" into "Username".
+[DEBUG] 2024-07-07 00:01:20.332 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:20.362 [main] ReportManager - Type "123" into "Password".
+[INFO ] 2024-07-07 00:01:20.524 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-07 00:01:20.562 [main] ReportManager - Click "Login".
+[INFO ] 2024-07-07 00:01:20.564 [main] ReportManager - Assert that the element located by "By.xpath: //div[contains(@class, 'error-message-container error')]/h3[contains(text(), 'Epic sadface: Username and password do not match any user in this service')]" exists.
+[DEBUG] 2024-07-07 00:01:20.597 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:20.597 [main] AllureLifecycle - Could not update step: step with uuid dace422c-caf4-43ae-a5f5-34c45a857b27 not found
+[INFO ] 2024-07-07 00:01:20.887 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-20-886_07072024'
+[INFO ] 2024-07-07 00:01:20.888 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:20.888 [main] AllureLifecycle - Could not update step: step with uuid dace422c-caf4-43ae-a5f5-34c45a857b27 not found
+[INFO ] 2024-07-07 00:01:20.889 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: InValidCredentials'
+[INFO ] 2024-07-07 00:01:20.889 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Finished Execution of Test Method: 'LoginPage.InValidCredentials'                                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:20.891 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Starting execution of end driver session configuration method                                          
+                                                          'LoginPage.EndDriverSession'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:21.182 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-07 00:01:21.183 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: EndDriverSession'
+[INFO ] 2024-07-07 00:01:21.184 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Starting execution of start driver session configuration method                                         
+                                                         'LoginPage.startDriverSession'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:21.186 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-07-07 00:01:21.698 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-07-07 00:01:21.699 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:21.700 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-07-07 00:01:23.104 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-07-07 00:01:23.108 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-07-07 00:01:23.128 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-07-07 00:01:23.992 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-07-07 00:01:23.993 [main] ReportManager - Verify that the browser title is equal to "Swag Labs".
+[DEBUG] 2024-07-07 00:01:23.999 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:23.999 [main] AllureLifecycle - Could not update step: step with uuid aa96292d-449a-4f35-a8f6-6354fea5eee1 not found
+[INFO ] 2024-07-07 00:01:24.206 [main] ReportManager - Successfully created attachment 'Screenshot - Verify_00-01-24-202_07072024'
+[INFO ] 2024-07-07 00:01:24.207 [main] ReportManager - Expected "Swag Labs", and actual "Swag Labs"
+[ERROR] 2024-07-07 00:01:24.208 [main] AllureLifecycle - Could not update step: step with uuid aa96292d-449a-4f35-a8f6-6354fea5eee1 not found
+[INFO ] 2024-07-07 00:01:24.210 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: startDriverSession'
+[INFO ] 2024-07-07 00:01:24.228 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.ValidCredentials'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-07-07 00:01:24.348 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:24.417 [main] ReportManager - Type "standard_user" into "Username".
+[DEBUG] 2024-07-07 00:01:24.514 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-07-07 00:01:24.555 [main] ReportManager - Type "secret_sauce" into "Password".
+[INFO ] 2024-07-07 00:01:24.703 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-07-07 00:01:24.795 [main] ReportManager - Click "Login".
+[INFO ] 2024-07-07 00:01:24.796 [main] ReportManager - Assert that the element located by "By.xpath: //div[contains(text(), 'Swag Labs')]" exists.
+[DEBUG] 2024-07-07 00:01:24.846 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:24.846 [main] AllureLifecycle - Could not update step: step with uuid a3732b37-9cd8-4977-8f0a-4741294a32c3 not found
+[INFO ] 2024-07-07 00:01:25.407 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_00-01-25-381_07072024'
+[INFO ] 2024-07-07 00:01:25.407 [main] ReportManager - Expected "true", and actual "true"
+[ERROR] 2024-07-07 00:01:25.407 [main] AllureLifecycle - Could not update step: step with uuid a3732b37-9cd8-4977-8f0a-4741294a32c3 not found
+[INFO ] 2024-07-07 00:01:25.409 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: ValidCredentials'
+[INFO ] 2024-07-07 00:01:25.410 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Finished Execution of Test Method: 'LoginPage.ValidCredentials'                                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:25.412 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Starting execution of end driver session configuration method                                          
+                                                          'LoginPage.EndDriverSession'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:25.641 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-07-07 00:01:25.643 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: EndDriverSession'
+[INFO ] 2024-07-07 00:01:25.645 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-07-07 00:01:25.646 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.ValidCredentials'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @07-07-2024 00:01:24.0348 AM
+[ReportManager] Type "standard_user" into "Username". @07-07-2024 00:01:24.0416 AM
+[ReportManager] Text cleared Using Native Clear @07-07-2024 00:01:24.0514 AM
+[ReportManager] Type "secret_sauce" into "Password". @07-07-2024 00:01:24.0555 AM
+[ReportManager] Moved the mouse to the middle of the element. @07-07-2024 00:01:24.0703 AM
+[ReportManager] Click "Login". @07-07-2024 00:01:24.0795 AM
+[ReportManager] Assert that the element located by "By.xpath: //div[contains(text(), 'Swag Labs')]" exists. @07-07-2024 00:01:24.0796 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:24.0846 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_00-01-25-381_07072024' @07-07-2024 00:01:25.0407 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:25.0407 AM

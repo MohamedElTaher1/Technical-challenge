@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.CheckFieldsExist'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Assert that the element located by "By.id: user-name" exists. @07-07-2024 00:01:10.0734 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:10.0797 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_00-01-11-150_07072024' @07-07-2024 00:01:11.0151 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:11.0151 AM
+[ReportManager] Assert that the element located by "By.id: password" exists. @07-07-2024 00:01:11.0153 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:11.0181 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_00-01-11-512_07072024' @07-07-2024 00:01:11.0513 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:11.0514 AM
+[ReportManager] Assert that the element located by "By.id: login-button" exists. @07-07-2024 00:01:11.0517 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:11.0589 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_00-01-11-930_07072024' @07-07-2024 00:01:11.0932 AM
+[ReportManager] Expected "true", and actual "true" @07-07-2024 00:01:11.0932 AM

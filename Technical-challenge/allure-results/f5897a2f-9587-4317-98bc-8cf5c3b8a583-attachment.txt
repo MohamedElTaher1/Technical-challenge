@@ -1,0 +1,12 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @07-07-2024 00:01:12.0330 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: D:\JDK\project\Web-Automati..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @07-07-2024 00:01:12.0865 AM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @07-07-2024 00:01:12.0866 AM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @07-07-2024 00:01:12.0866 AM
+[ReportManager] Successfully Opened: "Windows | Chrome". @07-07-2024 00:01:13.0748 AM
+[ReportManager] Target URL: "https://www.saucedemo.com/" @07-07-2024 00:01:13.0750 AM
+[ReportManager] Initial URL: "about:blank" @07-07-2024 00:01:13.0768 AM
+[ReportManager] Navigate to url "https://www.saucedemo.com/". @07-07-2024 00:01:14.0684 AM
+[ReportManager] Verify that the browser title is equal to "Swag Labs". @07-07-2024 00:01:14.0687 AM
+[ReportManager] Expected "Swag Labs", and actual "Swag Labs" @07-07-2024 00:01:14.0699 AM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_00-01-15-034_07072024' @07-07-2024 00:01:15.0035 AM
+[ReportManager] Expected "Swag Labs", and actual "Swag Labs" @07-07-2024 00:01:15.0035 AM
