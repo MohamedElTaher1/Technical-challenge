@@ -1,0 +1,14 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                                                    Test Method: 'LoginPage.EmptyCredentials'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @06-07-2024 23:52:02.0284 PM
+[ReportManager] Type "mohamed" into "Username". @06-07-2024 23:52:02.0324 PM
+[ReportManager] Moved the mouse to the middle of the element. @06-07-2024 23:52:02.0481 PM
+[ReportManager] Click "Login". @06-07-2024 23:52:02.0518 PM
+[ReportManager] Assert that the element located by "By.xpath: //div[contains(@class, 'error-message-container error')]/h3[contains(text(), 'Epic sadface: Password is required')]" exists. @06-07-2024 23:52:02.0519 PM
+[ReportManager] Expected "true", and actual "true" @06-07-2024 23:52:02.0557 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_23-52-02-855_06072024' @06-07-2024 23:52:02.0856 PM
+[ReportManager] Expected "true", and actual "true" @06-07-2024 23:52:02.0857 PM
